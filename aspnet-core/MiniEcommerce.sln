@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniEcommerce.HttpApi.Clien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniEcommerce.DbMigrator", "src\MiniEcommerce.DbMigrator\MiniEcommerce.DbMigrator.csproj", "{AA94D832-1CCC-4715-95A9-A483F23A1A5D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity", "identity", "{97DF5E96-8BA0-40B9-83D7-C1E526D60A14}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{97DF5E96-8BA0-40B9-83D7-C1E526D60A14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{75E57837-C6D1-4F77-9C22-BF97F0EA422D}"
 EndProject
