@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Volo.Abp.Domain.Entities.Auditing;
 
 namespace MiniEcommerce.Manufacturers
 {
-    public class Manufacturer
+    public class Manufacturer : CreationAuditedAggregateRoot<Guid>
     {
         public string Name { get; set; }
         public string Code { get; set; }
