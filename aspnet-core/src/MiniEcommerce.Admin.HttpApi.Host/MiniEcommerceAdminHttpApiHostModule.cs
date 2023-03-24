@@ -201,7 +201,7 @@ public class MiniEcommerceAdminHttpApiHostModule : AbpModule
 
             var configuration = context.GetConfiguration();
             options.OAuthClientId(configuration["AuthServer:SwaggerClientId"]);
-            options.OAuthScopes("MiniEcommerce");
+            options.OAuthScopes("MiniEcommerce.Admin");
         });
 
         app.UseAuditing();

@@ -6,21 +6,21 @@ export const environment = {
   production: false,
   application: {
     baseUrl,
-    name: 'MiniEcommerce',
+    name: 'MiniEcommerce Admin',
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44358/',
+    issuer: 'https://localhost:5000/',
     redirectUri: baseUrl,
-    clientId: 'MiniEcommerce_App',
+    clientId: 'MiniEcommerce_Admin',
     responseType: 'code',
-    scope: 'offline_access MiniEcommerce',
+    scope: 'offline_access MiniEcommerce.Admin',
     requireHttps: true,
   },
   apis: {
     default: {
-      url: 'https://localhost:44366',
-      rootNamespace: 'MiniEcommerce',
+      url: 'https://localhost:5001',
+      rootNamespace: 'MiniEcommerce.Admin',
     },
   },
 } as Environment;
