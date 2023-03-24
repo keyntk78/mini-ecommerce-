@@ -56,7 +56,7 @@ public class MiniEcommerceAuthServerModule : AbpModule
         {
             builder.AddValidation(options =>
             {
-                options.AddAudiences("MiniEcommerce");
+                options.AddAudiences("MiniEcommerce", "MiniEcommerce.Admin");
                 options.UseLocalServer();
                 options.UseAspNetCore();
             });
